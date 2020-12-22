@@ -88,7 +88,6 @@ turns=0 #game starts with 0 turns and keeps increasing each time user inputs
 game_end = 0
 board=generate_board() #creates a board for user inputs
 print('Welcome players!! This is the board:') #introduction
-print('    1st player key is "1"  --/-\--  2nd player key is "2" \n')
 print_board_bottomup(board)
 pygame.init()
 size_of_block = 75
